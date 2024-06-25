@@ -12,9 +12,6 @@ export const BlogPostPreview: FunctionComponent<{
   return (
     <div className="break-words">
       <Link href={`/blog/${post.slug}`}>
-        <div className="aspect-[16/9] relative">
-          
-        </div>
       </Link>
       <div className="grid grid-cols-1 gap-3 md:col-span-2 mt-4">
         <h2 className="font-sans font-semibold tracking-tighter text-primary text-2xl md:text-3xl">
