@@ -1,5 +1,5 @@
 const buildConfig = () => {
-  const blogId = process.env.BLOG_ID;
+  const blogId = process.env.NEXT_PUBLIC_BLOG_ID;
   const name = process.env.NEXT_PUBLIC_BLOG_DISPLAY_NAME || "Travel.";
   const copyright = process.env.NEXT_PUBLIC_BLOG_COPYRIGHT || "Samantha";
   const defaultTitle =
